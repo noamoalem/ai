@@ -1,0 +1,2 @@
+Initial state: d_0_on_d_1 d_0_at_p_0 d_1_at_p_0 p_1_empty 
+Goal state: d_0_on_d_1 d_0_at_p_1 d_1_at_p_1 p_0_empty 

@@ -1,0 +1,531 @@
+Propositions:
+p_0_empty p_1_empty p_2_empty p_3_empty d_0_low d_0_high d_1_low d_1_high d_2_low d_2_high d_0_on_d_1 d_0_on_d_2 d_1_on_d_2 d_0_in_p_0 d_0_in_p_1 d_0_in_p_2 d_0_in_p_3 d_1_in_p_0 d_1_in_p_1 d_1_in_p_2 d_1_in_p_3 d_2_in_p_0 d_2_in_p_1 d_2_in_p_2 d_2_in_p_3 
+Actions:
+Name: move_d_0_in_p_0_on_d_1_to_p_1_on_d_2
+pre: d_0_in_p_0 d_0_high d_0_on_d_1 d_2_in_p_1 d_2_high
+add: d_0_in_p_1 d_0_on_d_2 d_1_high
+del: d_0_in_p_0 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_0_on_d_2_to_p_1_on_d_1
+pre: d_0_in_p_0 d_0_high d_0_on_d_2 d_1_in_p_1 d_1_high
+add: d_0_in_p_1 d_0_on_d_1 d_2_high
+del: d_0_in_p_0 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_0_on_d_1_to_p_2_on_d_2
+pre: d_0_in_p_0 d_0_high d_0_on_d_1 d_2_in_p_2 d_2_high
+add: d_0_in_p_2 d_0_on_d_2 d_1_high
+del: d_0_in_p_0 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_0_on_d_2_to_p_2_on_d_1
+pre: d_0_in_p_0 d_0_high d_0_on_d_2 d_1_in_p_2 d_1_high
+add: d_0_in_p_2 d_0_on_d_1 d_2_high
+del: d_0_in_p_0 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_0_on_d_1_to_p_3_on_d_2
+pre: d_0_in_p_0 d_0_high d_0_on_d_1 d_2_in_p_3 d_2_high
+add: d_0_in_p_3 d_0_on_d_2 d_1_high
+del: d_0_in_p_0 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_0_on_d_2_to_p_3_on_d_1
+pre: d_0_in_p_0 d_0_high d_0_on_d_2 d_1_in_p_3 d_1_high
+add: d_0_in_p_3 d_0_on_d_1 d_2_high
+del: d_0_in_p_0 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_1_on_d_1_to_p_0_on_d_2
+pre: d_0_in_p_1 d_0_high d_0_on_d_1 d_2_in_p_0 d_2_high
+add: d_0_in_p_0 d_0_on_d_2 d_1_high
+del: d_0_in_p_1 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_1_on_d_2_to_p_0_on_d_1
+pre: d_0_in_p_1 d_0_high d_0_on_d_2 d_1_in_p_0 d_1_high
+add: d_0_in_p_0 d_0_on_d_1 d_2_high
+del: d_0_in_p_1 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_1_on_d_1_to_p_2_on_d_2
+pre: d_0_in_p_1 d_0_high d_0_on_d_1 d_2_in_p_2 d_2_high
+add: d_0_in_p_2 d_0_on_d_2 d_1_high
+del: d_0_in_p_1 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_1_on_d_2_to_p_2_on_d_1
+pre: d_0_in_p_1 d_0_high d_0_on_d_2 d_1_in_p_2 d_1_high
+add: d_0_in_p_2 d_0_on_d_1 d_2_high
+del: d_0_in_p_1 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_1_on_d_1_to_p_3_on_d_2
+pre: d_0_in_p_1 d_0_high d_0_on_d_1 d_2_in_p_3 d_2_high
+add: d_0_in_p_3 d_0_on_d_2 d_1_high
+del: d_0_in_p_1 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_1_on_d_2_to_p_3_on_d_1
+pre: d_0_in_p_1 d_0_high d_0_on_d_2 d_1_in_p_3 d_1_high
+add: d_0_in_p_3 d_0_on_d_1 d_2_high
+del: d_0_in_p_1 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_2_on_d_1_to_p_0_on_d_2
+pre: d_0_in_p_2 d_0_high d_0_on_d_1 d_2_in_p_0 d_2_high
+add: d_0_in_p_0 d_0_on_d_2 d_1_high
+del: d_0_in_p_2 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_2_on_d_2_to_p_0_on_d_1
+pre: d_0_in_p_2 d_0_high d_0_on_d_2 d_1_in_p_0 d_1_high
+add: d_0_in_p_0 d_0_on_d_1 d_2_high
+del: d_0_in_p_2 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_2_on_d_1_to_p_1_on_d_2
+pre: d_0_in_p_2 d_0_high d_0_on_d_1 d_2_in_p_1 d_2_high
+add: d_0_in_p_1 d_0_on_d_2 d_1_high
+del: d_0_in_p_2 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_2_on_d_2_to_p_1_on_d_1
+pre: d_0_in_p_2 d_0_high d_0_on_d_2 d_1_in_p_1 d_1_high
+add: d_0_in_p_1 d_0_on_d_1 d_2_high
+del: d_0_in_p_2 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_2_on_d_1_to_p_3_on_d_2
+pre: d_0_in_p_2 d_0_high d_0_on_d_1 d_2_in_p_3 d_2_high
+add: d_0_in_p_3 d_0_on_d_2 d_1_high
+del: d_0_in_p_2 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_2_on_d_2_to_p_3_on_d_1
+pre: d_0_in_p_2 d_0_high d_0_on_d_2 d_1_in_p_3 d_1_high
+add: d_0_in_p_3 d_0_on_d_1 d_2_high
+del: d_0_in_p_2 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_3_on_d_1_to_p_0_on_d_2
+pre: d_0_in_p_3 d_0_high d_0_on_d_1 d_2_in_p_0 d_2_high
+add: d_0_in_p_0 d_0_on_d_2 d_1_high
+del: d_0_in_p_3 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_3_on_d_2_to_p_0_on_d_1
+pre: d_0_in_p_3 d_0_high d_0_on_d_2 d_1_in_p_0 d_1_high
+add: d_0_in_p_0 d_0_on_d_1 d_2_high
+del: d_0_in_p_3 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_3_on_d_1_to_p_1_on_d_2
+pre: d_0_in_p_3 d_0_high d_0_on_d_1 d_2_in_p_1 d_2_high
+add: d_0_in_p_1 d_0_on_d_2 d_1_high
+del: d_0_in_p_3 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_3_on_d_2_to_p_1_on_d_1
+pre: d_0_in_p_3 d_0_high d_0_on_d_2 d_1_in_p_1 d_1_high
+add: d_0_in_p_1 d_0_on_d_1 d_2_high
+del: d_0_in_p_3 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_3_on_d_1_to_p_2_on_d_2
+pre: d_0_in_p_3 d_0_high d_0_on_d_1 d_2_in_p_2 d_2_high
+add: d_0_in_p_2 d_0_on_d_2 d_1_high
+del: d_0_in_p_3 d_0_on_d_1 d_2_high
+Name: move_d_0_in_p_3_on_d_2_to_p_2_on_d_1
+pre: d_0_in_p_3 d_0_high d_0_on_d_2 d_1_in_p_2 d_1_high
+add: d_0_in_p_2 d_0_on_d_1 d_2_high
+del: d_0_in_p_3 d_0_on_d_2 d_1_high
+Name: move_d_0_in_p_0_to_p_1_on_d_1
+pre: d_0_in_p_0 d_0_high d_0_low d_1_in_p_1 d_1_high
+add: d_0_in_p_1 d_0_on_d_1 p_0_empty
+del: d_0_in_p_0 d_0_low d_1_high
+Name: move_d_0_in_p_0_to_p_1_on_d_2
+pre: d_0_in_p_0 d_0_high d_0_low d_2_in_p_1 d_2_high
+add: d_0_in_p_1 d_0_on_d_2 p_0_empty
+del: d_0_in_p_0 d_0_low d_2_high
+Name: move_d_0_in_p_0_to_p_2_on_d_1
+pre: d_0_in_p_0 d_0_high d_0_low d_1_in_p_2 d_1_high
+add: d_0_in_p_2 d_0_on_d_1 p_0_empty
+del: d_0_in_p_0 d_0_low d_1_high
+Name: move_d_0_in_p_0_to_p_2_on_d_2
+pre: d_0_in_p_0 d_0_high d_0_low d_2_in_p_2 d_2_high
+add: d_0_in_p_2 d_0_on_d_2 p_0_empty
+del: d_0_in_p_0 d_0_low d_2_high
+Name: move_d_0_in_p_0_to_p_3_on_d_1
+pre: d_0_in_p_0 d_0_high d_0_low d_1_in_p_3 d_1_high
+add: d_0_in_p_3 d_0_on_d_1 p_0_empty
+del: d_0_in_p_0 d_0_low d_1_high
+Name: move_d_0_in_p_0_to_p_3_on_d_2
+pre: d_0_in_p_0 d_0_high d_0_low d_2_in_p_3 d_2_high
+add: d_0_in_p_3 d_0_on_d_2 p_0_empty
+del: d_0_in_p_0 d_0_low d_2_high
+Name: move_d_0_in_p_1_to_p_0_on_d_1
+pre: d_0_in_p_1 d_0_high d_0_low d_1_in_p_0 d_1_high
+add: d_0_in_p_0 d_0_on_d_1 p_1_empty
+del: d_0_in_p_1 d_0_low d_1_high
+Name: move_d_0_in_p_1_to_p_0_on_d_2
+pre: d_0_in_p_1 d_0_high d_0_low d_2_in_p_0 d_2_high
+add: d_0_in_p_0 d_0_on_d_2 p_1_empty
+del: d_0_in_p_1 d_0_low d_2_high
+Name: move_d_0_in_p_1_to_p_2_on_d_1
+pre: d_0_in_p_1 d_0_high d_0_low d_1_in_p_2 d_1_high
+add: d_0_in_p_2 d_0_on_d_1 p_1_empty
+del: d_0_in_p_1 d_0_low d_1_high
+Name: move_d_0_in_p_1_to_p_2_on_d_2
+pre: d_0_in_p_1 d_0_high d_0_low d_2_in_p_2 d_2_high
+add: d_0_in_p_2 d_0_on_d_2 p_1_empty
+del: d_0_in_p_1 d_0_low d_2_high
+Name: move_d_0_in_p_1_to_p_3_on_d_1
+pre: d_0_in_p_1 d_0_high d_0_low d_1_in_p_3 d_1_high
+add: d_0_in_p_3 d_0_on_d_1 p_1_empty
+del: d_0_in_p_1 d_0_low d_1_high
+Name: move_d_0_in_p_1_to_p_3_on_d_2
+pre: d_0_in_p_1 d_0_high d_0_low d_2_in_p_3 d_2_high
+add: d_0_in_p_3 d_0_on_d_2 p_1_empty
+del: d_0_in_p_1 d_0_low d_2_high
+Name: move_d_0_in_p_2_to_p_0_on_d_1
+pre: d_0_in_p_2 d_0_high d_0_low d_1_in_p_0 d_1_high
+add: d_0_in_p_0 d_0_on_d_1 p_2_empty
+del: d_0_in_p_2 d_0_low d_1_high
+Name: move_d_0_in_p_2_to_p_0_on_d_2
+pre: d_0_in_p_2 d_0_high d_0_low d_2_in_p_0 d_2_high
+add: d_0_in_p_0 d_0_on_d_2 p_2_empty
+del: d_0_in_p_2 d_0_low d_2_high
+Name: move_d_0_in_p_2_to_p_1_on_d_1
+pre: d_0_in_p_2 d_0_high d_0_low d_1_in_p_1 d_1_high
+add: d_0_in_p_1 d_0_on_d_1 p_2_empty
+del: d_0_in_p_2 d_0_low d_1_high
+Name: move_d_0_in_p_2_to_p_1_on_d_2
+pre: d_0_in_p_2 d_0_high d_0_low d_2_in_p_1 d_2_high
+add: d_0_in_p_1 d_0_on_d_2 p_2_empty
+del: d_0_in_p_2 d_0_low d_2_high
+Name: move_d_0_in_p_2_to_p_3_on_d_1
+pre: d_0_in_p_2 d_0_high d_0_low d_1_in_p_3 d_1_high
+add: d_0_in_p_3 d_0_on_d_1 p_2_empty
+del: d_0_in_p_2 d_0_low d_1_high
+Name: move_d_0_in_p_2_to_p_3_on_d_2
+pre: d_0_in_p_2 d_0_high d_0_low d_2_in_p_3 d_2_high
+add: d_0_in_p_3 d_0_on_d_2 p_2_empty
+del: d_0_in_p_2 d_0_low d_2_high
+Name: move_d_0_in_p_3_to_p_0_on_d_1
+pre: d_0_in_p_3 d_0_high d_0_low d_1_in_p_0 d_1_high
+add: d_0_in_p_0 d_0_on_d_1 p_3_empty
+del: d_0_in_p_3 d_0_low d_1_high
+Name: move_d_0_in_p_3_to_p_0_on_d_2
+pre: d_0_in_p_3 d_0_high d_0_low d_2_in_p_0 d_2_high
+add: d_0_in_p_0 d_0_on_d_2 p_3_empty
+del: d_0_in_p_3 d_0_low d_2_high
+Name: move_d_0_in_p_3_to_p_1_on_d_1
+pre: d_0_in_p_3 d_0_high d_0_low d_1_in_p_1 d_1_high
+add: d_0_in_p_1 d_0_on_d_1 p_3_empty
+del: d_0_in_p_3 d_0_low d_1_high
+Name: move_d_0_in_p_3_to_p_1_on_d_2
+pre: d_0_in_p_3 d_0_high d_0_low d_2_in_p_1 d_2_high
+add: d_0_in_p_1 d_0_on_d_2 p_3_empty
+del: d_0_in_p_3 d_0_low d_2_high
+Name: move_d_0_in_p_3_to_p_2_on_d_1
+pre: d_0_in_p_3 d_0_high d_0_low d_1_in_p_2 d_1_high
+add: d_0_in_p_2 d_0_on_d_1 p_3_empty
+del: d_0_in_p_3 d_0_low d_1_high
+Name: move_d_0_in_p_3_to_p_2_on_d_2
+pre: d_0_in_p_3 d_0_high d_0_low d_2_in_p_2 d_2_high
+add: d_0_in_p_2 d_0_on_d_2 p_3_empty
+del: d_0_in_p_3 d_0_low d_2_high
+Name: move_d_1_in_p_0_to_p_1_on_d_2
+pre: d_1_in_p_0 d_1_high d_1_low d_2_in_p_1 d_2_high
+add: d_1_in_p_1 d_1_on_d_2 p_0_empty
+del: d_1_in_p_0 d_1_low d_2_high
+Name: move_d_1_in_p_0_to_p_2_on_d_2
+pre: d_1_in_p_0 d_1_high d_1_low d_2_in_p_2 d_2_high
+add: d_1_in_p_2 d_1_on_d_2 p_0_empty
+del: d_1_in_p_0 d_1_low d_2_high
+Name: move_d_1_in_p_0_to_p_3_on_d_2
+pre: d_1_in_p_0 d_1_high d_1_low d_2_in_p_3 d_2_high
+add: d_1_in_p_3 d_1_on_d_2 p_0_empty
+del: d_1_in_p_0 d_1_low d_2_high
+Name: move_d_1_in_p_1_to_p_0_on_d_2
+pre: d_1_in_p_1 d_1_high d_1_low d_2_in_p_0 d_2_high
+add: d_1_in_p_0 d_1_on_d_2 p_1_empty
+del: d_1_in_p_1 d_1_low d_2_high
+Name: move_d_1_in_p_1_to_p_2_on_d_2
+pre: d_1_in_p_1 d_1_high d_1_low d_2_in_p_2 d_2_high
+add: d_1_in_p_2 d_1_on_d_2 p_1_empty
+del: d_1_in_p_1 d_1_low d_2_high
+Name: move_d_1_in_p_1_to_p_3_on_d_2
+pre: d_1_in_p_1 d_1_high d_1_low d_2_in_p_3 d_2_high
+add: d_1_in_p_3 d_1_on_d_2 p_1_empty
+del: d_1_in_p_1 d_1_low d_2_high
+Name: move_d_1_in_p_2_to_p_0_on_d_2
+pre: d_1_in_p_2 d_1_high d_1_low d_2_in_p_0 d_2_high
+add: d_1_in_p_0 d_1_on_d_2 p_2_empty
+del: d_1_in_p_2 d_1_low d_2_high
+Name: move_d_1_in_p_2_to_p_1_on_d_2
+pre: d_1_in_p_2 d_1_high d_1_low d_2_in_p_1 d_2_high
+add: d_1_in_p_1 d_1_on_d_2 p_2_empty
+del: d_1_in_p_2 d_1_low d_2_high
+Name: move_d_1_in_p_2_to_p_3_on_d_2
+pre: d_1_in_p_2 d_1_high d_1_low d_2_in_p_3 d_2_high
+add: d_1_in_p_3 d_1_on_d_2 p_2_empty
+del: d_1_in_p_2 d_1_low d_2_high
+Name: move_d_1_in_p_3_to_p_0_on_d_2
+pre: d_1_in_p_3 d_1_high d_1_low d_2_in_p_0 d_2_high
+add: d_1_in_p_0 d_1_on_d_2 p_3_empty
+del: d_1_in_p_3 d_1_low d_2_high
+Name: move_d_1_in_p_3_to_p_1_on_d_2
+pre: d_1_in_p_3 d_1_high d_1_low d_2_in_p_1 d_2_high
+add: d_1_in_p_1 d_1_on_d_2 p_3_empty
+del: d_1_in_p_3 d_1_low d_2_high
+Name: move_d_1_in_p_3_to_p_2_on_d_2
+pre: d_1_in_p_3 d_1_high d_1_low d_2_in_p_2 d_2_high
+add: d_1_in_p_2 d_1_on_d_2 p_3_empty
+del: d_1_in_p_3 d_1_low d_2_high
+Name: move_d_0_in_p_0_to_p_1
+pre: d_0_in_p_0 d_0_high d_0_low p_1_empty
+add: d_0_in_p_1 p_0_empty
+del: d_0_in_p_0 p_1_empty
+Name: move_d_0_in_p_0_to_p_2
+pre: d_0_in_p_0 d_0_high d_0_low p_2_empty
+add: d_0_in_p_2 p_0_empty
+del: d_0_in_p_0 p_2_empty
+Name: move_d_0_in_p_0_to_p_3
+pre: d_0_in_p_0 d_0_high d_0_low p_3_empty
+add: d_0_in_p_3 p_0_empty
+del: d_0_in_p_0 p_3_empty
+Name: move_d_0_in_p_1_to_p_0
+pre: d_0_in_p_1 d_0_high d_0_low p_0_empty
+add: d_0_in_p_0 p_1_empty
+del: d_0_in_p_1 p_0_empty
+Name: move_d_0_in_p_1_to_p_2
+pre: d_0_in_p_1 d_0_high d_0_low p_2_empty
+add: d_0_in_p_2 p_1_empty
+del: d_0_in_p_1 p_2_empty
+Name: move_d_0_in_p_1_to_p_3
+pre: d_0_in_p_1 d_0_high d_0_low p_3_empty
+add: d_0_in_p_3 p_1_empty
+del: d_0_in_p_1 p_3_empty
+Name: move_d_0_in_p_2_to_p_0
+pre: d_0_in_p_2 d_0_high d_0_low p_0_empty
+add: d_0_in_p_0 p_2_empty
+del: d_0_in_p_2 p_0_empty
+Name: move_d_0_in_p_2_to_p_1
+pre: d_0_in_p_2 d_0_high d_0_low p_1_empty
+add: d_0_in_p_1 p_2_empty
+del: d_0_in_p_2 p_1_empty
+Name: move_d_0_in_p_2_to_p_3
+pre: d_0_in_p_2 d_0_high d_0_low p_3_empty
+add: d_0_in_p_3 p_2_empty
+del: d_0_in_p_2 p_3_empty
+Name: move_d_0_in_p_3_to_p_0
+pre: d_0_in_p_3 d_0_high d_0_low p_0_empty
+add: d_0_in_p_0 p_3_empty
+del: d_0_in_p_3 p_0_empty
+Name: move_d_0_in_p_3_to_p_1
+pre: d_0_in_p_3 d_0_high d_0_low p_1_empty
+add: d_0_in_p_1 p_3_empty
+del: d_0_in_p_3 p_1_empty
+Name: move_d_0_in_p_3_to_p_2
+pre: d_0_in_p_3 d_0_high d_0_low p_2_empty
+add: d_0_in_p_2 p_3_empty
+del: d_0_in_p_3 p_2_empty
+Name: move_d_1_in_p_0_to_p_1
+pre: d_1_in_p_0 d_1_high d_1_low p_1_empty
+add: d_1_in_p_1 p_0_empty
+del: d_1_in_p_0 p_1_empty
+Name: move_d_1_in_p_0_to_p_2
+pre: d_1_in_p_0 d_1_high d_1_low p_2_empty
+add: d_1_in_p_2 p_0_empty
+del: d_1_in_p_0 p_2_empty
+Name: move_d_1_in_p_0_to_p_3
+pre: d_1_in_p_0 d_1_high d_1_low p_3_empty
+add: d_1_in_p_3 p_0_empty
+del: d_1_in_p_0 p_3_empty
+Name: move_d_1_in_p_1_to_p_0
+pre: d_1_in_p_1 d_1_high d_1_low p_0_empty
+add: d_1_in_p_0 p_1_empty
+del: d_1_in_p_1 p_0_empty
+Name: move_d_1_in_p_1_to_p_2
+pre: d_1_in_p_1 d_1_high d_1_low p_2_empty
+add: d_1_in_p_2 p_1_empty
+del: d_1_in_p_1 p_2_empty
+Name: move_d_1_in_p_1_to_p_3
+pre: d_1_in_p_1 d_1_high d_1_low p_3_empty
+add: d_1_in_p_3 p_1_empty
+del: d_1_in_p_1 p_3_empty
+Name: move_d_1_in_p_2_to_p_0
+pre: d_1_in_p_2 d_1_high d_1_low p_0_empty
+add: d_1_in_p_0 p_2_empty
+del: d_1_in_p_2 p_0_empty
+Name: move_d_1_in_p_2_to_p_1
+pre: d_1_in_p_2 d_1_high d_1_low p_1_empty
+add: d_1_in_p_1 p_2_empty
+del: d_1_in_p_2 p_1_empty
+Name: move_d_1_in_p_2_to_p_3
+pre: d_1_in_p_2 d_1_high d_1_low p_3_empty
+add: d_1_in_p_3 p_2_empty
+del: d_1_in_p_2 p_3_empty
+Name: move_d_1_in_p_3_to_p_0
+pre: d_1_in_p_3 d_1_high d_1_low p_0_empty
+add: d_1_in_p_0 p_3_empty
+del: d_1_in_p_3 p_0_empty
+Name: move_d_1_in_p_3_to_p_1
+pre: d_1_in_p_3 d_1_high d_1_low p_1_empty
+add: d_1_in_p_1 p_3_empty
+del: d_1_in_p_3 p_1_empty
+Name: move_d_1_in_p_3_to_p_2
+pre: d_1_in_p_3 d_1_high d_1_low p_2_empty
+add: d_1_in_p_2 p_3_empty
+del: d_1_in_p_3 p_2_empty
+Name: move_d_2_in_p_0_to_p_1
+pre: d_2_in_p_0 d_2_high d_2_low p_1_empty
+add: d_2_in_p_1 p_0_empty
+del: d_2_in_p_0 p_1_empty
+Name: move_d_2_in_p_0_to_p_2
+pre: d_2_in_p_0 d_2_high d_2_low p_2_empty
+add: d_2_in_p_2 p_0_empty
+del: d_2_in_p_0 p_2_empty
+Name: move_d_2_in_p_0_to_p_3
+pre: d_2_in_p_0 d_2_high d_2_low p_3_empty
+add: d_2_in_p_3 p_0_empty
+del: d_2_in_p_0 p_3_empty
+Name: move_d_2_in_p_1_to_p_0
+pre: d_2_in_p_1 d_2_high d_2_low p_0_empty
+add: d_2_in_p_0 p_1_empty
+del: d_2_in_p_1 p_0_empty
+Name: move_d_2_in_p_1_to_p_2
+pre: d_2_in_p_1 d_2_high d_2_low p_2_empty
+add: d_2_in_p_2 p_1_empty
+del: d_2_in_p_1 p_2_empty
+Name: move_d_2_in_p_1_to_p_3
+pre: d_2_in_p_1 d_2_high d_2_low p_3_empty
+add: d_2_in_p_3 p_1_empty
+del: d_2_in_p_1 p_3_empty
+Name: move_d_2_in_p_2_to_p_0
+pre: d_2_in_p_2 d_2_high d_2_low p_0_empty
+add: d_2_in_p_0 p_2_empty
+del: d_2_in_p_2 p_0_empty
+Name: move_d_2_in_p_2_to_p_1
+pre: d_2_in_p_2 d_2_high d_2_low p_1_empty
+add: d_2_in_p_1 p_2_empty
+del: d_2_in_p_2 p_1_empty
+Name: move_d_2_in_p_2_to_p_3
+pre: d_2_in_p_2 d_2_high d_2_low p_3_empty
+add: d_2_in_p_3 p_2_empty
+del: d_2_in_p_2 p_3_empty
+Name: move_d_2_in_p_3_to_p_0
+pre: d_2_in_p_3 d_2_high d_2_low p_0_empty
+add: d_2_in_p_0 p_3_empty
+del: d_2_in_p_3 p_0_empty
+Name: move_d_2_in_p_3_to_p_1
+pre: d_2_in_p_3 d_2_high d_2_low p_1_empty
+add: d_2_in_p_1 p_3_empty
+del: d_2_in_p_3 p_1_empty
+Name: move_d_2_in_p_3_to_p_2
+pre: d_2_in_p_3 d_2_high d_2_low p_2_empty
+add: d_2_in_p_2 p_3_empty
+del: d_2_in_p_3 p_2_empty
+Name: move_d_0_in_p_0_on_d_1_to_p_1
+pre: d_0_in_p_0 d_0_high d_0_on_d_1 p_1_empty
+add: d_0_in_p_1 d_0_low d_1_high
+del: d_0_in_p_0 d_0_on_d_1 p_1_empty
+Name: move_d_0_in_p_0_on_d_2_to_p_1
+pre: d_0_in_p_0 d_0_high d_0_on_d_2 p_1_empty
+add: d_0_in_p_1 d_0_low d_2_high
+del: d_0_in_p_0 d_0_on_d_2 p_1_empty
+Name: move_d_0_in_p_0_on_d_1_to_p_2
+pre: d_0_in_p_0 d_0_high d_0_on_d_1 p_2_empty
+add: d_0_in_p_2 d_0_low d_1_high
+del: d_0_in_p_0 d_0_on_d_1 p_2_empty
+Name: move_d_0_in_p_0_on_d_2_to_p_2
+pre: d_0_in_p_0 d_0_high d_0_on_d_2 p_2_empty
+add: d_0_in_p_2 d_0_low d_2_high
+del: d_0_in_p_0 d_0_on_d_2 p_2_empty
+Name: move_d_0_in_p_0_on_d_1_to_p_3
+pre: d_0_in_p_0 d_0_high d_0_on_d_1 p_3_empty
+add: d_0_in_p_3 d_0_low d_1_high
+del: d_0_in_p_0 d_0_on_d_1 p_3_empty
+Name: move_d_0_in_p_0_on_d_2_to_p_3
+pre: d_0_in_p_0 d_0_high d_0_on_d_2 p_3_empty
+add: d_0_in_p_3 d_0_low d_2_high
+del: d_0_in_p_0 d_0_on_d_2 p_3_empty
+Name: move_d_0_in_p_1_on_d_1_to_p_0
+pre: d_0_in_p_1 d_0_high d_0_on_d_1 p_0_empty
+add: d_0_in_p_0 d_0_low d_1_high
+del: d_0_in_p_1 d_0_on_d_1 p_0_empty
+Name: move_d_0_in_p_1_on_d_2_to_p_0
+pre: d_0_in_p_1 d_0_high d_0_on_d_2 p_0_empty
+add: d_0_in_p_0 d_0_low d_2_high
+del: d_0_in_p_1 d_0_on_d_2 p_0_empty
+Name: move_d_0_in_p_1_on_d_1_to_p_2
+pre: d_0_in_p_1 d_0_high d_0_on_d_1 p_2_empty
+add: d_0_in_p_2 d_0_low d_1_high
+del: d_0_in_p_1 d_0_on_d_1 p_2_empty
+Name: move_d_0_in_p_1_on_d_2_to_p_2
+pre: d_0_in_p_1 d_0_high d_0_on_d_2 p_2_empty
+add: d_0_in_p_2 d_0_low d_2_high
+del: d_0_in_p_1 d_0_on_d_2 p_2_empty
+Name: move_d_0_in_p_1_on_d_1_to_p_3
+pre: d_0_in_p_1 d_0_high d_0_on_d_1 p_3_empty
+add: d_0_in_p_3 d_0_low d_1_high
+del: d_0_in_p_1 d_0_on_d_1 p_3_empty
+Name: move_d_0_in_p_1_on_d_2_to_p_3
+pre: d_0_in_p_1 d_0_high d_0_on_d_2 p_3_empty
+add: d_0_in_p_3 d_0_low d_2_high
+del: d_0_in_p_1 d_0_on_d_2 p_3_empty
+Name: move_d_0_in_p_2_on_d_1_to_p_0
+pre: d_0_in_p_2 d_0_high d_0_on_d_1 p_0_empty
+add: d_0_in_p_0 d_0_low d_1_high
+del: d_0_in_p_2 d_0_on_d_1 p_0_empty
+Name: move_d_0_in_p_2_on_d_2_to_p_0
+pre: d_0_in_p_2 d_0_high d_0_on_d_2 p_0_empty
+add: d_0_in_p_0 d_0_low d_2_high
+del: d_0_in_p_2 d_0_on_d_2 p_0_empty
+Name: move_d_0_in_p_2_on_d_1_to_p_1
+pre: d_0_in_p_2 d_0_high d_0_on_d_1 p_1_empty
+add: d_0_in_p_1 d_0_low d_1_high
+del: d_0_in_p_2 d_0_on_d_1 p_1_empty
+Name: move_d_0_in_p_2_on_d_2_to_p_1
+pre: d_0_in_p_2 d_0_high d_0_on_d_2 p_1_empty
+add: d_0_in_p_1 d_0_low d_2_high
+del: d_0_in_p_2 d_0_on_d_2 p_1_empty
+Name: move_d_0_in_p_2_on_d_1_to_p_3
+pre: d_0_in_p_2 d_0_high d_0_on_d_1 p_3_empty
+add: d_0_in_p_3 d_0_low d_1_high
+del: d_0_in_p_2 d_0_on_d_1 p_3_empty
+Name: move_d_0_in_p_2_on_d_2_to_p_3
+pre: d_0_in_p_2 d_0_high d_0_on_d_2 p_3_empty
+add: d_0_in_p_3 d_0_low d_2_high
+del: d_0_in_p_2 d_0_on_d_2 p_3_empty
+Name: move_d_0_in_p_3_on_d_1_to_p_0
+pre: d_0_in_p_3 d_0_high d_0_on_d_1 p_0_empty
+add: d_0_in_p_0 d_0_low d_1_high
+del: d_0_in_p_3 d_0_on_d_1 p_0_empty
+Name: move_d_0_in_p_3_on_d_2_to_p_0
+pre: d_0_in_p_3 d_0_high d_0_on_d_2 p_0_empty
+add: d_0_in_p_0 d_0_low d_2_high
+del: d_0_in_p_3 d_0_on_d_2 p_0_empty
+Name: move_d_0_in_p_3_on_d_1_to_p_1
+pre: d_0_in_p_3 d_0_high d_0_on_d_1 p_1_empty
+add: d_0_in_p_1 d_0_low d_1_high
+del: d_0_in_p_3 d_0_on_d_1 p_1_empty
+Name: move_d_0_in_p_3_on_d_2_to_p_1
+pre: d_0_in_p_3 d_0_high d_0_on_d_2 p_1_empty
+add: d_0_in_p_1 d_0_low d_2_high
+del: d_0_in_p_3 d_0_on_d_2 p_1_empty
+Name: move_d_0_in_p_3_on_d_1_to_p_2
+pre: d_0_in_p_3 d_0_high d_0_on_d_1 p_2_empty
+add: d_0_in_p_2 d_0_low d_1_high
+del: d_0_in_p_3 d_0_on_d_1 p_2_empty
+Name: move_d_0_in_p_3_on_d_2_to_p_2
+pre: d_0_in_p_3 d_0_high d_0_on_d_2 p_2_empty
+add: d_0_in_p_2 d_0_low d_2_high
+del: d_0_in_p_3 d_0_on_d_2 p_2_empty
+Name: move_d_1_in_p_0_on_d_2_to_p_1
+pre: d_1_in_p_0 d_1_high d_1_on_d_2 p_1_empty
+add: d_1_in_p_1 d_1_low d_2_high
+del: d_1_in_p_0 d_1_on_d_2 p_1_empty
+Name: move_d_1_in_p_0_on_d_2_to_p_2
+pre: d_1_in_p_0 d_1_high d_1_on_d_2 p_2_empty
+add: d_1_in_p_2 d_1_low d_2_high
+del: d_1_in_p_0 d_1_on_d_2 p_2_empty
+Name: move_d_1_in_p_0_on_d_2_to_p_3
+pre: d_1_in_p_0 d_1_high d_1_on_d_2 p_3_empty
+add: d_1_in_p_3 d_1_low d_2_high
+del: d_1_in_p_0 d_1_on_d_2 p_3_empty
+Name: move_d_1_in_p_1_on_d_2_to_p_0
+pre: d_1_in_p_1 d_1_high d_1_on_d_2 p_0_empty
+add: d_1_in_p_0 d_1_low d_2_high
+del: d_1_in_p_1 d_1_on_d_2 p_0_empty
+Name: move_d_1_in_p_1_on_d_2_to_p_2
+pre: d_1_in_p_1 d_1_high d_1_on_d_2 p_2_empty
+add: d_1_in_p_2 d_1_low d_2_high
+del: d_1_in_p_1 d_1_on_d_2 p_2_empty
+Name: move_d_1_in_p_1_on_d_2_to_p_3
+pre: d_1_in_p_1 d_1_high d_1_on_d_2 p_3_empty
+add: d_1_in_p_3 d_1_low d_2_high
+del: d_1_in_p_1 d_1_on_d_2 p_3_empty
+Name: move_d_1_in_p_2_on_d_2_to_p_0
+pre: d_1_in_p_2 d_1_high d_1_on_d_2 p_0_empty
+add: d_1_in_p_0 d_1_low d_2_high
+del: d_1_in_p_2 d_1_on_d_2 p_0_empty
+Name: move_d_1_in_p_2_on_d_2_to_p_1
+pre: d_1_in_p_2 d_1_high d_1_on_d_2 p_1_empty
+add: d_1_in_p_1 d_1_low d_2_high
+del: d_1_in_p_2 d_1_on_d_2 p_1_empty
+Name: move_d_1_in_p_2_on_d_2_to_p_3
+pre: d_1_in_p_2 d_1_high d_1_on_d_2 p_3_empty
+add: d_1_in_p_3 d_1_low d_2_high
+del: d_1_in_p_2 d_1_on_d_2 p_3_empty
+Name: move_d_1_in_p_3_on_d_2_to_p_0
+pre: d_1_in_p_3 d_1_high d_1_on_d_2 p_0_empty
+add: d_1_in_p_0 d_1_low d_2_high
+del: d_1_in_p_3 d_1_on_d_2 p_0_empty
+Name: move_d_1_in_p_3_on_d_2_to_p_1
+pre: d_1_in_p_3 d_1_high d_1_on_d_2 p_1_empty
+add: d_1_in_p_1 d_1_low d_2_high
+del: d_1_in_p_3 d_1_on_d_2 p_1_empty
+Name: move_d_1_in_p_3_on_d_2_to_p_2
+pre: d_1_in_p_3 d_1_high d_1_on_d_2 p_2_empty
+add: d_1_in_p_2 d_1_low d_2_high
+del: d_1_in_p_3 d_1_on_d_2 p_2_empty

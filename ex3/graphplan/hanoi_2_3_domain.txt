@@ -1,0 +1,80 @@
+Propositions:
+p_0_empty p_1_empty p_2_empty d_0_at_p_0 d_0_at_p_1 d_0_at_p_2 d_1_at_p_0 d_1_at_p_1 d_1_at_p_2 d_0_on_d_1 d_0_not_at_p_0 d_0_not_at_p_1 d_0_not_at_p_2 d_1_not_at_p_0 d_1_not_at_p_1 d_1_not_at_p_2 
+Actions:
+Name: M_d_0_F_p_0_TO_p_1
+pre: d_0_at_p_0 d_0_not_at_p_1
+add: d_0_at_p_1 d_0_not_at_p_0
+del: d_0_at_p_0 d_0_not_at_p_1
+Name: M_d_0_F_p_0_TO_p_2
+pre: d_0_at_p_0 d_0_not_at_p_2
+add: d_0_at_p_2 d_0_not_at_p_0
+del: d_0_at_p_0 d_0_not_at_p_2
+Name: M_d_0_F_p_1_TO_p_0
+pre: d_0_at_p_1 d_0_not_at_p_0
+add: d_0_at_p_0 d_0_not_at_p_1
+del: d_0_at_p_1 d_0_not_at_p_0
+Name: M_d_0_F_p_1_TO_p_2
+pre: d_0_at_p_1 d_0_not_at_p_2
+add: d_0_at_p_2 d_0_not_at_p_1
+del: d_0_at_p_1 d_0_not_at_p_2
+Name: M_d_0_F_p_2_TO_p_0
+pre: d_0_at_p_2 d_0_not_at_p_0
+add: d_0_at_p_0 d_0_not_at_p_2
+del: d_0_at_p_2 d_0_not_at_p_0
+Name: M_d_0_F_p_2_TO_p_1
+pre: d_0_at_p_2 d_0_not_at_p_1
+add: d_0_at_p_1 d_0_not_at_p_2
+del: d_0_at_p_2 d_0_not_at_p_1
+Name: M_d_1_F_p_0_TO_p_1
+pre: d_1_at_p_0 d_1_not_at_p_1 d_0_not_at_p_0 d_0_not_at_p_1
+add: d_1_at_p_1 d_1_not_at_p_0
+del: d_1_at_p_0 d_1_not_at_p_1
+Name: M_d_1_F_p_0_TO_p_2
+pre: d_1_at_p_0 d_1_not_at_p_2 d_0_not_at_p_0 d_0_not_at_p_2
+add: d_1_at_p_2 d_1_not_at_p_0
+del: d_1_at_p_0 d_1_not_at_p_2
+Name: M_d_1_F_p_1_TO_p_0
+pre: d_1_at_p_1 d_1_not_at_p_0 d_0_not_at_p_1 d_0_not_at_p_0
+add: d_1_at_p_0 d_1_not_at_p_1
+del: d_1_at_p_1 d_1_not_at_p_0
+Name: M_d_1_F_p_1_TO_p_2
+pre: d_1_at_p_1 d_1_not_at_p_2 d_0_not_at_p_1 d_0_not_at_p_2
+add: d_1_at_p_2 d_1_not_at_p_1
+del: d_1_at_p_1 d_1_not_at_p_2
+Name: M_d_1_F_p_2_TO_p_0
+pre: d_1_at_p_2 d_1_not_at_p_0 d_0_not_at_p_2 d_0_not_at_p_0
+add: d_1_at_p_0 d_1_not_at_p_2
+del: d_1_at_p_2 d_1_not_at_p_0
+Name: M_d_1_F_p_2_TO_p_1
+pre: d_1_at_p_2 d_1_not_at_p_1 d_0_not_at_p_2 d_0_not_at_p_1
+add: d_1_at_p_1 d_1_not_at_p_2
+del: d_1_at_p_2 d_1_not_at_p_1
+
+
+    for i in range(n_):
+        for j in range(m_):
+            for k in range(m_):
+                if j != k:
+                    for bigger_disk in range(i+1,):
+                        for bigger_disk_2 in range(i + 1, ):
+                            if bigger_disk != bigger_disk_2:
+
+
+                            # move disk from peg to another
+                                name = "\nName: move_" + disks[i] +"_in_" +pegs[j] +"_on_"+disks[bigger_disk]+ "_to_" +pegs[k]+"_on_"+disks[bigger_disk_2]
+
+                                pre = "\npre: " + disks[i] + "_in_" + pegs[j]
+                                pre += " " + disks[i] + "_highest"
+                                pre += " " + disks[i] + "_on_" + disks[bigger_disk]
+                                pre += " " +disks[bigger_disk_2] +"_in_" + pegs[k]
+                                pre += " " + disks[bigger_disk_2] + "_highest"
+
+                                add = "\nadd: " + disks[i] + "_in_" + pegs[k]
+                                add += " " +  disks[i] + "_on_" + disks[bigger_disk_2]
+                                add += " " + disks[bigger_disk] + "_highest"
+
+                                dele = "\ndel: " + disks[i] + "_in_" + pegs[j]
+                                dele += " " + disks[i] + "_on_" + disks[bigger_disk]
+                                dele += " " + disks[bigger_disk_2] + "_highest"
+
+                                domain_file.write(name + pre + add + dele)

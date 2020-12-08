@@ -1,0 +1,343 @@
+Propositions:
+p_0_empty p_1_empty p_2_empty p_3_empty p_4_empty p_5_empty d_0_at_p_0 d_0_at_p_1 d_0_at_p_2 d_0_at_p_3 d_0_at_p_4 d_0_at_p_5 d_1_at_p_0 d_1_at_p_1 d_1_at_p_2 d_1_at_p_3 d_1_at_p_4 d_1_at_p_5 d_0_on_d_1 
+Actions:
+Name: d_0_from_d_1_to_d_1
+pre: d_0_on_d_1 d_0_empty d_1_empty
+add: d_1_empty d_0_on_d_1
+delete: d_1_empty d_0_on_d_1
+Name: d_0_from_d_1_to_p_0
+pre: d_0_on_d_1 d_0_empty p_0_empty
+add: d_1_empty d_0_on_p_0
+delete: p_0_empty d_0_on_d_1
+Name: d_0_from_d_1_to_p_1
+pre: d_0_on_d_1 d_0_empty p_1_empty
+add: d_1_empty d_0_on_p_1
+delete: p_1_empty d_0_on_d_1
+Name: d_0_from_d_1_to_p_2
+pre: d_0_on_d_1 d_0_empty p_2_empty
+add: d_1_empty d_0_on_p_2
+delete: p_2_empty d_0_on_d_1
+Name: d_0_from_d_1_to_p_3
+pre: d_0_on_d_1 d_0_empty p_3_empty
+add: d_1_empty d_0_on_p_3
+delete: p_3_empty d_0_on_d_1
+Name: d_0_from_d_1_to_p_4
+pre: d_0_on_d_1 d_0_empty p_4_empty
+add: d_1_empty d_0_on_p_4
+delete: p_4_empty d_0_on_d_1
+Name: d_0_from_d_1_to_p_5
+pre: d_0_on_d_1 d_0_empty p_5_empty
+add: d_1_empty d_0_on_p_5
+delete: p_5_empty d_0_on_d_1
+Name: d_0_from_p_0_to_d_1
+pre: d_0_on_p_0 d_0_empty d_1_empty
+add: p_0_empty d_0_on_d_1
+delete: d_1_empty d_0_on_p_0
+Name: d_0_from_p_0_to_p_0
+pre: d_0_on_p_0 d_0_empty p_0_empty
+add: p_0_empty d_0_on_p_0
+delete: p_0_empty d_0_on_p_0
+Name: d_0_from_p_0_to_p_1
+pre: d_0_on_p_0 d_0_empty p_1_empty
+add: p_0_empty d_0_on_p_1
+delete: p_1_empty d_0_on_p_0
+Name: d_0_from_p_0_to_p_2
+pre: d_0_on_p_0 d_0_empty p_2_empty
+add: p_0_empty d_0_on_p_2
+delete: p_2_empty d_0_on_p_0
+Name: d_0_from_p_0_to_p_3
+pre: d_0_on_p_0 d_0_empty p_3_empty
+add: p_0_empty d_0_on_p_3
+delete: p_3_empty d_0_on_p_0
+Name: d_0_from_p_0_to_p_4
+pre: d_0_on_p_0 d_0_empty p_4_empty
+add: p_0_empty d_0_on_p_4
+delete: p_4_empty d_0_on_p_0
+Name: d_0_from_p_0_to_p_5
+pre: d_0_on_p_0 d_0_empty p_5_empty
+add: p_0_empty d_0_on_p_5
+delete: p_5_empty d_0_on_p_0
+Name: d_0_from_p_1_to_d_1
+pre: d_0_on_p_1 d_0_empty d_1_empty
+add: p_1_empty d_0_on_d_1
+delete: d_1_empty d_0_on_p_1
+Name: d_0_from_p_1_to_p_0
+pre: d_0_on_p_1 d_0_empty p_0_empty
+add: p_1_empty d_0_on_p_0
+delete: p_0_empty d_0_on_p_1
+Name: d_0_from_p_1_to_p_1
+pre: d_0_on_p_1 d_0_empty p_1_empty
+add: p_1_empty d_0_on_p_1
+delete: p_1_empty d_0_on_p_1
+Name: d_0_from_p_1_to_p_2
+pre: d_0_on_p_1 d_0_empty p_2_empty
+add: p_1_empty d_0_on_p_2
+delete: p_2_empty d_0_on_p_1
+Name: d_0_from_p_1_to_p_3
+pre: d_0_on_p_1 d_0_empty p_3_empty
+add: p_1_empty d_0_on_p_3
+delete: p_3_empty d_0_on_p_1
+Name: d_0_from_p_1_to_p_4
+pre: d_0_on_p_1 d_0_empty p_4_empty
+add: p_1_empty d_0_on_p_4
+delete: p_4_empty d_0_on_p_1
+Name: d_0_from_p_1_to_p_5
+pre: d_0_on_p_1 d_0_empty p_5_empty
+add: p_1_empty d_0_on_p_5
+delete: p_5_empty d_0_on_p_1
+Name: d_0_from_p_2_to_d_1
+pre: d_0_on_p_2 d_0_empty d_1_empty
+add: p_2_empty d_0_on_d_1
+delete: d_1_empty d_0_on_p_2
+Name: d_0_from_p_2_to_p_0
+pre: d_0_on_p_2 d_0_empty p_0_empty
+add: p_2_empty d_0_on_p_0
+delete: p_0_empty d_0_on_p_2
+Name: d_0_from_p_2_to_p_1
+pre: d_0_on_p_2 d_0_empty p_1_empty
+add: p_2_empty d_0_on_p_1
+delete: p_1_empty d_0_on_p_2
+Name: d_0_from_p_2_to_p_2
+pre: d_0_on_p_2 d_0_empty p_2_empty
+add: p_2_empty d_0_on_p_2
+delete: p_2_empty d_0_on_p_2
+Name: d_0_from_p_2_to_p_3
+pre: d_0_on_p_2 d_0_empty p_3_empty
+add: p_2_empty d_0_on_p_3
+delete: p_3_empty d_0_on_p_2
+Name: d_0_from_p_2_to_p_4
+pre: d_0_on_p_2 d_0_empty p_4_empty
+add: p_2_empty d_0_on_p_4
+delete: p_4_empty d_0_on_p_2
+Name: d_0_from_p_2_to_p_5
+pre: d_0_on_p_2 d_0_empty p_5_empty
+add: p_2_empty d_0_on_p_5
+delete: p_5_empty d_0_on_p_2
+Name: d_0_from_p_3_to_d_1
+pre: d_0_on_p_3 d_0_empty d_1_empty
+add: p_3_empty d_0_on_d_1
+delete: d_1_empty d_0_on_p_3
+Name: d_0_from_p_3_to_p_0
+pre: d_0_on_p_3 d_0_empty p_0_empty
+add: p_3_empty d_0_on_p_0
+delete: p_0_empty d_0_on_p_3
+Name: d_0_from_p_3_to_p_1
+pre: d_0_on_p_3 d_0_empty p_1_empty
+add: p_3_empty d_0_on_p_1
+delete: p_1_empty d_0_on_p_3
+Name: d_0_from_p_3_to_p_2
+pre: d_0_on_p_3 d_0_empty p_2_empty
+add: p_3_empty d_0_on_p_2
+delete: p_2_empty d_0_on_p_3
+Name: d_0_from_p_3_to_p_3
+pre: d_0_on_p_3 d_0_empty p_3_empty
+add: p_3_empty d_0_on_p_3
+delete: p_3_empty d_0_on_p_3
+Name: d_0_from_p_3_to_p_4
+pre: d_0_on_p_3 d_0_empty p_4_empty
+add: p_3_empty d_0_on_p_4
+delete: p_4_empty d_0_on_p_3
+Name: d_0_from_p_3_to_p_5
+pre: d_0_on_p_3 d_0_empty p_5_empty
+add: p_3_empty d_0_on_p_5
+delete: p_5_empty d_0_on_p_3
+Name: d_0_from_p_4_to_d_1
+pre: d_0_on_p_4 d_0_empty d_1_empty
+add: p_4_empty d_0_on_d_1
+delete: d_1_empty d_0_on_p_4
+Name: d_0_from_p_4_to_p_0
+pre: d_0_on_p_4 d_0_empty p_0_empty
+add: p_4_empty d_0_on_p_0
+delete: p_0_empty d_0_on_p_4
+Name: d_0_from_p_4_to_p_1
+pre: d_0_on_p_4 d_0_empty p_1_empty
+add: p_4_empty d_0_on_p_1
+delete: p_1_empty d_0_on_p_4
+Name: d_0_from_p_4_to_p_2
+pre: d_0_on_p_4 d_0_empty p_2_empty
+add: p_4_empty d_0_on_p_2
+delete: p_2_empty d_0_on_p_4
+Name: d_0_from_p_4_to_p_3
+pre: d_0_on_p_4 d_0_empty p_3_empty
+add: p_4_empty d_0_on_p_3
+delete: p_3_empty d_0_on_p_4
+Name: d_0_from_p_4_to_p_4
+pre: d_0_on_p_4 d_0_empty p_4_empty
+add: p_4_empty d_0_on_p_4
+delete: p_4_empty d_0_on_p_4
+Name: d_0_from_p_4_to_p_5
+pre: d_0_on_p_4 d_0_empty p_5_empty
+add: p_4_empty d_0_on_p_5
+delete: p_5_empty d_0_on_p_4
+Name: d_0_from_p_5_to_d_1
+pre: d_0_on_p_5 d_0_empty d_1_empty
+add: p_5_empty d_0_on_d_1
+delete: d_1_empty d_0_on_p_5
+Name: d_0_from_p_5_to_p_0
+pre: d_0_on_p_5 d_0_empty p_0_empty
+add: p_5_empty d_0_on_p_0
+delete: p_0_empty d_0_on_p_5
+Name: d_0_from_p_5_to_p_1
+pre: d_0_on_p_5 d_0_empty p_1_empty
+add: p_5_empty d_0_on_p_1
+delete: p_1_empty d_0_on_p_5
+Name: d_0_from_p_5_to_p_2
+pre: d_0_on_p_5 d_0_empty p_2_empty
+add: p_5_empty d_0_on_p_2
+delete: p_2_empty d_0_on_p_5
+Name: d_0_from_p_5_to_p_3
+pre: d_0_on_p_5 d_0_empty p_3_empty
+add: p_5_empty d_0_on_p_3
+delete: p_3_empty d_0_on_p_5
+Name: d_0_from_p_5_to_p_4
+pre: d_0_on_p_5 d_0_empty p_4_empty
+add: p_5_empty d_0_on_p_4
+delete: p_4_empty d_0_on_p_5
+Name: d_0_from_p_5_to_p_5
+pre: d_0_on_p_5 d_0_empty p_5_empty
+add: p_5_empty d_0_on_p_5
+delete: p_5_empty d_0_on_p_5
+Name: d_1_from_p_0_to_p_0
+pre: d_1_on_p_0 d_1_empty p_0_empty
+add: p_0_empty d_1_on_p_0
+delete: p_0_empty d_1_on_p_0
+Name: d_1_from_p_0_to_p_1
+pre: d_1_on_p_0 d_1_empty p_1_empty
+add: p_0_empty d_1_on_p_1
+delete: p_1_empty d_1_on_p_0
+Name: d_1_from_p_0_to_p_2
+pre: d_1_on_p_0 d_1_empty p_2_empty
+add: p_0_empty d_1_on_p_2
+delete: p_2_empty d_1_on_p_0
+Name: d_1_from_p_0_to_p_3
+pre: d_1_on_p_0 d_1_empty p_3_empty
+add: p_0_empty d_1_on_p_3
+delete: p_3_empty d_1_on_p_0
+Name: d_1_from_p_0_to_p_4
+pre: d_1_on_p_0 d_1_empty p_4_empty
+add: p_0_empty d_1_on_p_4
+delete: p_4_empty d_1_on_p_0
+Name: d_1_from_p_0_to_p_5
+pre: d_1_on_p_0 d_1_empty p_5_empty
+add: p_0_empty d_1_on_p_5
+delete: p_5_empty d_1_on_p_0
+Name: d_1_from_p_1_to_p_0
+pre: d_1_on_p_1 d_1_empty p_0_empty
+add: p_1_empty d_1_on_p_0
+delete: p_0_empty d_1_on_p_1
+Name: d_1_from_p_1_to_p_1
+pre: d_1_on_p_1 d_1_empty p_1_empty
+add: p_1_empty d_1_on_p_1
+delete: p_1_empty d_1_on_p_1
+Name: d_1_from_p_1_to_p_2
+pre: d_1_on_p_1 d_1_empty p_2_empty
+add: p_1_empty d_1_on_p_2
+delete: p_2_empty d_1_on_p_1
+Name: d_1_from_p_1_to_p_3
+pre: d_1_on_p_1 d_1_empty p_3_empty
+add: p_1_empty d_1_on_p_3
+delete: p_3_empty d_1_on_p_1
+Name: d_1_from_p_1_to_p_4
+pre: d_1_on_p_1 d_1_empty p_4_empty
+add: p_1_empty d_1_on_p_4
+delete: p_4_empty d_1_on_p_1
+Name: d_1_from_p_1_to_p_5
+pre: d_1_on_p_1 d_1_empty p_5_empty
+add: p_1_empty d_1_on_p_5
+delete: p_5_empty d_1_on_p_1
+Name: d_1_from_p_2_to_p_0
+pre: d_1_on_p_2 d_1_empty p_0_empty
+add: p_2_empty d_1_on_p_0
+delete: p_0_empty d_1_on_p_2
+Name: d_1_from_p_2_to_p_1
+pre: d_1_on_p_2 d_1_empty p_1_empty
+add: p_2_empty d_1_on_p_1
+delete: p_1_empty d_1_on_p_2
+Name: d_1_from_p_2_to_p_2
+pre: d_1_on_p_2 d_1_empty p_2_empty
+add: p_2_empty d_1_on_p_2
+delete: p_2_empty d_1_on_p_2
+Name: d_1_from_p_2_to_p_3
+pre: d_1_on_p_2 d_1_empty p_3_empty
+add: p_2_empty d_1_on_p_3
+delete: p_3_empty d_1_on_p_2
+Name: d_1_from_p_2_to_p_4
+pre: d_1_on_p_2 d_1_empty p_4_empty
+add: p_2_empty d_1_on_p_4
+delete: p_4_empty d_1_on_p_2
+Name: d_1_from_p_2_to_p_5
+pre: d_1_on_p_2 d_1_empty p_5_empty
+add: p_2_empty d_1_on_p_5
+delete: p_5_empty d_1_on_p_2
+Name: d_1_from_p_3_to_p_0
+pre: d_1_on_p_3 d_1_empty p_0_empty
+add: p_3_empty d_1_on_p_0
+delete: p_0_empty d_1_on_p_3
+Name: d_1_from_p_3_to_p_1
+pre: d_1_on_p_3 d_1_empty p_1_empty
+add: p_3_empty d_1_on_p_1
+delete: p_1_empty d_1_on_p_3
+Name: d_1_from_p_3_to_p_2
+pre: d_1_on_p_3 d_1_empty p_2_empty
+add: p_3_empty d_1_on_p_2
+delete: p_2_empty d_1_on_p_3
+Name: d_1_from_p_3_to_p_3
+pre: d_1_on_p_3 d_1_empty p_3_empty
+add: p_3_empty d_1_on_p_3
+delete: p_3_empty d_1_on_p_3
+Name: d_1_from_p_3_to_p_4
+pre: d_1_on_p_3 d_1_empty p_4_empty
+add: p_3_empty d_1_on_p_4
+delete: p_4_empty d_1_on_p_3
+Name: d_1_from_p_3_to_p_5
+pre: d_1_on_p_3 d_1_empty p_5_empty
+add: p_3_empty d_1_on_p_5
+delete: p_5_empty d_1_on_p_3
+Name: d_1_from_p_4_to_p_0
+pre: d_1_on_p_4 d_1_empty p_0_empty
+add: p_4_empty d_1_on_p_0
+delete: p_0_empty d_1_on_p_4
+Name: d_1_from_p_4_to_p_1
+pre: d_1_on_p_4 d_1_empty p_1_empty
+add: p_4_empty d_1_on_p_1
+delete: p_1_empty d_1_on_p_4
+Name: d_1_from_p_4_to_p_2
+pre: d_1_on_p_4 d_1_empty p_2_empty
+add: p_4_empty d_1_on_p_2
+delete: p_2_empty d_1_on_p_4
+Name: d_1_from_p_4_to_p_3
+pre: d_1_on_p_4 d_1_empty p_3_empty
+add: p_4_empty d_1_on_p_3
+delete: p_3_empty d_1_on_p_4
+Name: d_1_from_p_4_to_p_4
+pre: d_1_on_p_4 d_1_empty p_4_empty
+add: p_4_empty d_1_on_p_4
+delete: p_4_empty d_1_on_p_4
+Name: d_1_from_p_4_to_p_5
+pre: d_1_on_p_4 d_1_empty p_5_empty
+add: p_4_empty d_1_on_p_5
+delete: p_5_empty d_1_on_p_4
+Name: d_1_from_p_5_to_p_0
+pre: d_1_on_p_5 d_1_empty p_0_empty
+add: p_5_empty d_1_on_p_0
+delete: p_0_empty d_1_on_p_5
+Name: d_1_from_p_5_to_p_1
+pre: d_1_on_p_5 d_1_empty p_1_empty
+add: p_5_empty d_1_on_p_1
+delete: p_1_empty d_1_on_p_5
+Name: d_1_from_p_5_to_p_2
+pre: d_1_on_p_5 d_1_empty p_2_empty
+add: p_5_empty d_1_on_p_2
+delete: p_2_empty d_1_on_p_5
+Name: d_1_from_p_5_to_p_3
+pre: d_1_on_p_5 d_1_empty p_3_empty
+add: p_5_empty d_1_on_p_3
+delete: p_3_empty d_1_on_p_5
+Name: d_1_from_p_5_to_p_4
+pre: d_1_on_p_5 d_1_empty p_4_empty
+add: p_5_empty d_1_on_p_4
+delete: p_4_empty d_1_on_p_5
+Name: d_1_from_p_5_to_p_5
+pre: d_1_on_p_5 d_1_empty p_5_empty
+add: p_5_empty d_1_on_p_5
+delete: p_5_empty d_1_on_p_5
